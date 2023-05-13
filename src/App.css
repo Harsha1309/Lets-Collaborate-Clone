@@ -1,0 +1,42 @@
+*{
+  font-family: serif;
+}
+@media only screen and (min-width: 1500px) {
+  .padding {
+    padding: 3% 18%;
+  }
+  .pr{
+    padding-right: 20%;
+  }
+
+  .font {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 400%;
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .padding {
+    padding: 5% 3%;
+  }
+
+  .font {
+    font-size: 300%;
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.05);
+  }
+
+}
+.arrow:hover {
+  position: relative;
+  animation: arrow 1s 1;
+}
+
+@keyframes arrow{
+  0%   { left: 0px; top: 0px;}
+  50%  { left: 20px; top: 0px;}
+  100% { left: 0px; top: 0px;}
+}

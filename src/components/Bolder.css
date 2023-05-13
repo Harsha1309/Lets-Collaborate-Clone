@@ -1,0 +1,25 @@
+
+@media only screen and (min-width: 1500px) {
+    .image{
+        width: 95%;
+        height: 90%;
+        object-fit: cover;
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    .image{
+        height: 100%;
+        width: 88%;
+        vertical-align: middle;
+    }
+  
+  }
+  @keyframes myfirst {
+    0%  { left: 0px; top: 200px;}
+    100% { left: 0px; top: 0px;}
+  }
+  .animation {
+    position: relative;
+    animation: myfirst 1s 1;
+  }

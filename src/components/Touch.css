@@ -1,0 +1,15 @@
+button  a:hover{
+    background-color: white;
+    color: black;
+    border:2px solid black;
+}
+
+button a{
+    padding:10% 25%;
+    background-color: black;
+    color: white;
+}
+button{
+    transition: all .25s ease-in-out;
+}
+
